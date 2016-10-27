@@ -12,6 +12,19 @@
 		905EC6061DC1D0C3002CEFA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905EC6041DC1D0C3002CEFA8 /* Main.storyboard */; };
 		905EC6081DC1D0C3002CEFA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905EC6071DC1D0C3002CEFA8 /* Assets.xcassets */; };
 		905EC60B1DC1D0C3002CEFA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905EC6091DC1D0C3002CEFA8 /* LaunchScreen.storyboard */; };
+		9081132A1DC1D3B6009051FD /* BaseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908113291DC1D3B6009051FD /* BaseInfo.swift */; };
+		9081132C1DC1D3E2009051FD /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9081132B1DC1D3E2009051FD /* UserInfo.swift */; };
+		9081132E1DC1D3FC009051FD /* LocationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9081132D1DC1D3FC009051FD /* LocationInfo.swift */; };
+		908113301DC1D43C009051FD /* FxOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9081132F1DC1D43C009051FD /* FxOperation.swift */; };
+		908113321DC1D46E009051FD /* FxLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908113311DC1D46E009051FD /* FxLogin.swift */; };
+		908113341DC1D48F009051FD /* FxRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908113331DC1D48F009051FD /* FxRegister.swift */; };
+		908113361DC1D49E009051FD /* FxGetCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908113351DC1D49E009051FD /* FxGetCars.swift */; };
+		908113381DC1D50B009051FD /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908113371DC1D50B009051FD /* BaseController.swift */; };
+		9081133C1DC1D561009051FD /* BasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9081133B1DC1D561009051FD /* BasePage.swift */; };
+		9081133E1DC1D573009051FD /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9081133D1DC1D573009051FD /* LoginPage.swift */; };
+		908113401DC1D599009051FD /* GuidePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9081133F1DC1D599009051FD /* GuidePage.swift */; };
+		908113421DC1D5B5009051FD /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908113411DC1D5B5009051FD /* RegisterPage.swift */; };
+		908113441DC1D5E4009051FD /* BindPayPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908113431DC1D5E4009051FD /* BindPayPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,19 @@
 		905EC6071DC1D0C3002CEFA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		905EC60A1DC1D0C3002CEFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		905EC60C1DC1D0C3002CEFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908113291DC1D3B6009051FD /* BaseInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInfo.swift; sourceTree = "<group>"; };
+		9081132B1DC1D3E2009051FD /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		9081132D1DC1D3FC009051FD /* LocationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationInfo.swift; sourceTree = "<group>"; };
+		9081132F1DC1D43C009051FD /* FxOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxOperation.swift; sourceTree = "<group>"; };
+		908113311DC1D46E009051FD /* FxLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxLogin.swift; sourceTree = "<group>"; };
+		908113331DC1D48F009051FD /* FxRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxRegister.swift; sourceTree = "<group>"; };
+		908113351DC1D49E009051FD /* FxGetCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxGetCars.swift; sourceTree = "<group>"; };
+		908113371DC1D50B009051FD /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		9081133B1DC1D561009051FD /* BasePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePage.swift; sourceTree = "<group>"; };
+		9081133D1DC1D573009051FD /* LoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		9081133F1DC1D599009051FD /* GuidePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuidePage.swift; sourceTree = "<group>"; };
+		908113411DC1D5B5009051FD /* RegisterPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
+		908113431DC1D5E4009051FD /* BindPayPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindPayPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,139 @@
 		905EC5FF1DC1D0C3002CEFA8 /* Uber */ = {
 			isa = PBXGroup;
 			children = (
+				9081131C1DC1D20B009051FD /* Global */,
+				9081131D1DC1D214009051FD /* Model */,
+				9081131E1DC1D235009051FD /* Operation */,
+				9081131F1DC1D23D009051FD /* View */,
+				908113211DC1D261009051FD /* Utility */,
+				908113201DC1D24A009051FD /* DB */,
+				908113221DC1D268009051FD /* ThirdSDK */,
+				908113231DC1D289009051FD /* Define */,
 				905EC6001DC1D0C3002CEFA8 /* AppDelegate.swift */,
 				905EC6021DC1D0C3002CEFA8 /* ViewController.swift */,
-				905EC6041DC1D0C3002CEFA8 /* Main.storyboard */,
-				905EC6071DC1D0C3002CEFA8 /* Assets.xcassets */,
-				905EC6091DC1D0C3002CEFA8 /* LaunchScreen.storyboard */,
-				905EC60C1DC1D0C3002CEFA8 /* Info.plist */,
+				908113241DC1D296009051FD /* Resources */,
+				908113281DC1D328009051FD /* Frameworks */,
 			);
 			path = Uber;
+			sourceTree = "<group>";
+		};
+		9081131C1DC1D20B009051FD /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		9081131D1DC1D214009051FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				908113291DC1D3B6009051FD /* BaseInfo.swift */,
+				9081132B1DC1D3E2009051FD /* UserInfo.swift */,
+				9081132D1DC1D3FC009051FD /* LocationInfo.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9081131E1DC1D235009051FD /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				9081132F1DC1D43C009051FD /* FxOperation.swift */,
+				908113311DC1D46E009051FD /* FxLogin.swift */,
+				908113331DC1D48F009051FD /* FxRegister.swift */,
+				908113351DC1D49E009051FD /* FxGetCars.swift */,
+			);
+			name = Operation;
+			sourceTree = "<group>";
+		};
+		9081131F1DC1D23D009051FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				908113371DC1D50B009051FD /* BaseController.swift */,
+				908113391DC1D50E009051FD /* Pages */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		908113201DC1D24A009051FD /* DB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		908113211DC1D261009051FD /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		908113221DC1D268009051FD /* ThirdSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ThirdSDK;
+			sourceTree = "<group>";
+		};
+		908113231DC1D289009051FD /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Define;
+			sourceTree = "<group>";
+		};
+		908113241DC1D296009051FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				908113251DC1D2D3009051FD /* Config */,
+				908113261DC1D2DD009051FD /* Images */,
+				908113271DC1D2E3009051FD /* Xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		908113251DC1D2D3009051FD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				905EC60C1DC1D0C3002CEFA8 /* Info.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		908113261DC1D2DD009051FD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				905EC6071DC1D0C3002CEFA8 /* Assets.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		908113271DC1D2E3009051FD /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				905EC6041DC1D0C3002CEFA8 /* Main.storyboard */,
+				905EC6091DC1D0C3002CEFA8 /* LaunchScreen.storyboard */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		908113281DC1D328009051FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		908113391DC1D50E009051FD /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				9081133B1DC1D561009051FD /* BasePage.swift */,
+				9081133D1DC1D573009051FD /* LoginPage.swift */,
+				9081133F1DC1D599009051FD /* GuidePage.swift */,
+				908113411DC1D5B5009051FD /* RegisterPage.swift */,
+				908113431DC1D5E4009051FD /* BindPayPage.swift */,
+			);
+			name = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +288,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9081132C1DC1D3E2009051FD /* UserInfo.swift in Sources */,
+				908113421DC1D5B5009051FD /* RegisterPage.swift in Sources */,
+				908113401DC1D599009051FD /* GuidePage.swift in Sources */,
+				908113321DC1D46E009051FD /* FxLogin.swift in Sources */,
+				908113381DC1D50B009051FD /* BaseController.swift in Sources */,
 				905EC6031DC1D0C3002CEFA8 /* ViewController.swift in Sources */,
+				9081133E1DC1D573009051FD /* LoginPage.swift in Sources */,
+				9081132A1DC1D3B6009051FD /* BaseInfo.swift in Sources */,
+				9081133C1DC1D561009051FD /* BasePage.swift in Sources */,
+				908113441DC1D5E4009051FD /* BindPayPage.swift in Sources */,
+				9081132E1DC1D3FC009051FD /* LocationInfo.swift in Sources */,
 				905EC6011DC1D0C3002CEFA8 /* AppDelegate.swift in Sources */,
+				908113341DC1D48F009051FD /* FxRegister.swift in Sources */,
+				908113301DC1D43C009051FD /* FxOperation.swift in Sources */,
+				908113361DC1D49E009051FD /* FxGetCars.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +425,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2Z7NL663JA;
 				INFOPLIST_FILE = Uber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huatengIOT.Uber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2Z7NL663JA;
 				INFOPLIST_FILE = Uber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huatengIOT.Uber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +466,7 @@
 				905EC6111DC1D0C3002CEFA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
