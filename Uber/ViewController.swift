@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        FxLog(message: "start up")
+        _ = currentSystemVersion()
     }
 
     override func didReceiveMemoryWarning() {
